@@ -1,0 +1,45 @@
+body {
+    background: black;
+    font-size: 62.5%;
+    box-sizing: border-box;
+    color: white;
+
+}
+h1, h2, a {
+    text-align: center;
+}
+h1 {
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+a{
+    color: gold;
+    font-size: 1.25rem;
+}
+
+header, main, section {
+    display: flex;
+    flex-direction: column;
+}
+header{
+     align-items: center;
+}
+
+}
+section{
+    align-items: center;
+}
+p{
+    color: gray;
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+footer div{
+    text-align: right;
+    font-size: 1rem;
+}
