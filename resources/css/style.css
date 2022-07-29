@@ -3,6 +3,7 @@ body {
     font-size: 62.5%;
     box-sizing: border-box;
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
 
 }
 h1, h2, a {
@@ -13,7 +14,7 @@ h1 {
 }
 
 h2{
-    font-size: 1.5rem;
+    font-size: 1.85rem;
 }
 
 a{
@@ -29,16 +30,40 @@ header{
      align-items: center;
 }
 
+main{
+    width: 85%;
+    margin: 0 auto;
+}
 }
 section{
     align-items: center;
+    width: 75%;
+    height: 30%;
 }
 p{
     color: gray;
     text-align: center;
     font-size: 1.25rem;
 }
+section {
+    margin: 2%;
+}
+section:first-child video{
+    width: 20%;
+    height: 30%;
+    margin: 0 auto;
+}
+section:nth-child(2) img {
+    width: 85%;
+    height: 50%;
+    margin: 0 auto;
+}
 
+section:last-child img {
+    width: 10%;
+    height: 10%;
+    margin: 0 auto;
+}
 footer div{
     text-align: right;
     font-size: 1rem;
